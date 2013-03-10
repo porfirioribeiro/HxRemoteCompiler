@@ -1,0 +1,2 @@
+2013-02-16: 3.0.0
+This file is used to get the version number to FlashDevelop

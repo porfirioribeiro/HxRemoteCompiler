@@ -1,0 +1,4 @@
+-cp src
+-neko haxe-remote/haxe.n
+-main HaxeMain
+-dce full

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hxremote>
+	<connect ip="192.168.1.65" port="6000" />
+	<bindpaths separator="/">
+		<path from="E:" to="/media/Data" />
+		<path from="F:" to="/media/Jogos" />
+		<path from="G:" to="/" />
+		<path from="H:" to="/media/Windows" />
+		<path from="I:" to="/home/porfirio" />
+	</bindpaths>
+</hxremote>
