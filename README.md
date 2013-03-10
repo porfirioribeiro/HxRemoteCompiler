@@ -14,6 +14,7 @@ Eg.: I:\Projects\Haxe\MyProject will become /home/porfirio/Haxe/MyProject so the
 
 The XML may look like this:
 
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <hxremote>
 	<connect ip="192.168.1.65" port="6000" />
@@ -21,6 +22,7 @@ The XML may look like this:
 		<path from="I:" to="/home/porfirio" />
 	</bindpaths>
 </hxremote>
+```
 
 For the Haxe server to accept external connections run:
 haxe --wait 0.0.0.0:6000
